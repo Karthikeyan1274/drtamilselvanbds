@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Tamilselvan</title>
+    <style>
+        /* Reset default browser styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://wallpapers.com/images/featured/dental-f9hst8qqb8vpnfak.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 80px auto 20px; /* Adjust top margin to accommodate fixed navbar */
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .content {
+            padding: 20px;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 40px; /* Center content and add bottom margin */
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .content img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+        
+        p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+        
+        .round-image {
+            display: block;
+            width: 250px; /* Adjust size as needed */
+            height: 250px; /* Adjust size as needed */
+            border-radius: 50%; /* Make the image round */
+            overflow: hidden;
+            margin: 0 auto 20px; /* Center image and add bottom margin */
+            transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+        }
+        
+        .round-image:hover {
+            transform: scale(1.1); /* Scale up slightly on hover */
+        }
+        
+        .mapouter {
+            position: relative;
+            text-align: right;
+            height: 250px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            height: 250px;
+            width: 100%;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .content {
+                padding: 15px;
+                margin-bottom: 20px;
+            }
+            
+            .round-image {
+                width: 200px;
+                height: 200px;
+            }
+        }
+        .fixed-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366; /* WhatsApp green */
+            color: white;
+            padding: 15px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1000; /* Ensure it's above other content */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .fixed-button:hover {
+            background-color: #128C7E; /* Darker shade of WhatsApp green */
+        }
+
+        .fixed-button img {
+            width: 24px;
+            height: auto;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+   
+
+    <div id="about" class="content">
+        <div class="round-image">
+            
+            <img src="doctor.png" alt="Dr. Tamilselvan" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <h2>Dr.S.Tamilselvan BDS</h2>
+        <p>Dr. Tamilselvan BDS, a distinguished graduate of Adhiparasakthi Dental College and Hospital, boasts over 8 years of invaluable experience in dentistry. Throughout his career, he has garnered the trust of over 3000 satisfied patients, establishing himself as a trusted name in dental care. Dr. Tamilselvan combines his extensive experience with a passion for delivering exceptional dental services, specializing in advanced treatments that ensure patient comfort and satisfaction.</p>
+    </div>
+    <center><h2>Clinic's</h2></center>
+
+    <div id="clinic" class="content">
+        <h2>Meenatchi Advanced Dental Clinic</h2>
+        <img src="clinic1.jpg" alt="Clinic Image" style="width: 100%; max-width: 100%; height: auto;">
+        <p>Welcome to Meenatchi Advanced Dental Clinic, where excellence meets care. For over 7 years, we have been dedicated to transforming smiles and restoring oral health with precision and compassion. With a track record of successfully treating over 2000 patients, we stand as a beacon of trust in the dental community. Our commitment to quality dental care is reflected in the confidence placed in us by our patients, who rely on our expertise and personalized treatment plans. At Meenatchi Advanced Dental Clinic, your smile is our priority, and we strive to exceed expectations with every visit. Join us on a journey to optimal oral health and a radiant smile today.</p>
+    
+
+   
+        <h2>Location</h2>
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe width="100%" height="250" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=382%2FF%2C+TPT+Complex%2C+Salai+Street%2C+Ayyampettai%2C+Tamil+Nadu+614201&t=k&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        </div>
+   
+</div>
+
+<div id="clinic" class="content">
+    <h2>Sri Krishna Advanced Dental Clinic</h2>
+    <img src="clinic2.jpg" alt="Clinic Image" style="width: 100%; max-width: 100%; height: auto;">
+    <p>Welcome to Sri Krishna Advanced Dental Clinic, where excellence meets care. For over 5 years, we have been dedicated to transforming smiles and restoring oral health with precision and compassion. With a track record of successfully treating over 1000 patients, we stand as a beacon of trust in the dental community. Our commitment to quality dental care is reflected in the confidence placed in us by our patients, who rely on our expertise and personalized treatment plans. At Sri Krisshna Advanced Dental Clinic, your smile is our priority, and we strive to exceed expectations with every visit. Join us on a journey to optimal oral health and a radiant smile today.</p>
+
+
+
+    <h2>Location</h2>
+    <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe width="100%" height="250" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=10.784902068145684%2C+79.19476584515053&t=k&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div>
+    </div>
+
+</div>
+<div id="clinic" class="content">
+    <h2>Contact</h2>
+    
+    <p>Phone Number:9994013150</p>
+</div>
+<button class="fixed-button" onclick="window.location.href='https://wa.me/+919994013150'">
+    <img src="whatsapp-icon.png" alt="WhatsApp Icon"> Make an Appointment
+</button>
+
+</body>
+</html>
+
+
